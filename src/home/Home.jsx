@@ -9,7 +9,7 @@ export const Home = () => {
 
   return (
     <div className="flex w-full flex-col">
-      <div className="flex w-full justify-between">
+      <div className="flex flex-col items-center gap-2 text-center lg:text-left lg:flex-row w-full justify-between">
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
           <span className="block">
             Ready to use React + Vite + TailwindCSS?
