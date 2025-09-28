@@ -1,4 +1,4 @@
-FROM node:18 as builder
+FROM node:22.20.0 as builder
 
 RUN mkdir -p /workspace/app && chown node:node /workspace -R
 
@@ -11,7 +11,7 @@ COPY --chown=node:node . /workspace/app
 
 RUN npm install && npm run build
 
-FROM node:18
+FROM node:22.20.0
 
 RUN npm i -g serve
 

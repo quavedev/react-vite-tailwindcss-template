@@ -12,7 +12,7 @@ npx degit quavedev/react-vite-tailwindcss-template your-project
 npm install
 ```
 
-> You can make sure you are running Node.js 18 with `nvm`. Run `nvm use` to set the Node.js 18 in this project.
+> You can make sure you are running Node.js 22 with `nvm`. Run `nvm use` to set the Node.js 22 in this project.
 
 ## Develop
 
