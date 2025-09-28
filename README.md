@@ -32,12 +32,12 @@ Preview:
 npm run preview
 ```
 
-## Deploy on zCloud
+## Deploy on Quave Cloud
 
-Create your account at [zcloud.ws](https://zcloud.ws).
+Create your account at [quave.cloud](https://quave.cloud).
 
 Connect to your GitHub, create your app and done!
 
 Push to Deploy.
 
-Or use the preconfigured [action](./.github/workflows/deploy.yaml) to deploy your app. Uncomment all the lines and add your zCloud User Token (ZCLOUD_USER_TOKEN) to your secrets on GitHub and replace `env` placeholder value with your app env name (check it on app.zcloud.ws > Your app env > Settings).
+Or use the preconfigured [action](./.github/workflows/deploy.yaml) to deploy your app. Uncomment all the lines and add your Quave Cloud User Token (QUAVE_CLOUD_USER_TOKEN) to your secrets on GitHub and replace `env` placeholder value with your app env name (check it on app.quave.cloud > Your app env > Settings).
